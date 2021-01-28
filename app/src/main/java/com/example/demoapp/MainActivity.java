@@ -3,6 +3,7 @@ package com.example.demoapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -70,6 +71,11 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.buttonCancel:
                 Toast.makeText(this, "Login Cancelled", Toast.LENGTH_SHORT).show();
+                EditText pwdEditText;
+                pwdEditText = findViewById(R.id.etPassword);
+                String pwd = pwdEditText.getText().toString();
+                Intent dialIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+pwd));
+                startActivity(dialIntent);
                 break;
         }
 
