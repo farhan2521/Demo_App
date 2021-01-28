@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Demo App</string>
+    <string name="input_name">नाम दर्ज करें</string>
+    <string name="enter_password">पासवर्ड दर्ज करें</string>
+    <string name="remember_password">पासवर्ड याद रखें</string>
+    <string name="login">लॉगिन</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="faq">FAQ</string>
+    <string name="textview">TextView</string>
+    <string name="username">Username</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="kannada">Kannada</string>
+    <string name="hello_welcome_to_android_learning">Hello welcome to android learning</string>
+    <string name="profilepicdisplay">ProfilePicDisplay</string>
+</resources>
