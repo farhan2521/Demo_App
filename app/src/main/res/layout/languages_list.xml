@@ -15,6 +15,7 @@
         android:layout_height="wrap_content">
 
     <RadioGroup
+        android:id="@+id/lang_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -22,7 +23,8 @@
             android:id="@+id/radbutEng"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:text="@string/english"/>
+            android:text="@string/english" />
+
         <RadioButton
             android:id="@+id/radbutHin"
             android:layout_height="wrap_content"
@@ -38,12 +40,27 @@
 
     </ScrollView>
 
+
     <TextView
+        android:id="@+id/setlangbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/set"
+        android:onClick="langselectHandler"
+        android:textSize="24sp"
+        android:textColor="@color/purple_700"
+        android:layout_gravity="end"/>
+
+    <TextView
+        android:id="@+id/cancellangbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="@string/cancel"
+        android:onClick="langselectHandler"
         android:textSize="24sp"
+        android:textColor="@color/black"
         android:layout_gravity="end"/>
 
 </LinearLayout>

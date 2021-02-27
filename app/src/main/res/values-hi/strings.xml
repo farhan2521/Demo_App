@@ -15,4 +15,6 @@
     <string name="kannada">Kannada</string>
     <string name="hello_welcome_to_android_learning">Hello welcome to android learning</string>
     <string name="profilepicdisplay">ProfilePicDisplay</string>
+    <string name="alarm">Alarm</string>
+    <string name="whatsapp_share">Whatsapp share</string>
 </resources>
